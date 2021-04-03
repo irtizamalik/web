@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>HOME DECORATION</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+<div class="navbar">
+<h1>FURNITURE</h1> 
+<nav>
+<ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="About.html">about</a></li>
+    <li><a href="Styles.html">styles</a></li>
+    <li><a href="contact us.html">contact us</a></li>
+</ul>
+</nav>
+<img src="image/Studio8 Img/menu.png"class="menu-icon">
+
+</div>
+<div class="row">
+<div class="col">
+<div class="text-box">
+<h5>Our Product</h5>
+<h1><b>Simplicity</b><br> is the <b>ultimate</b> sophistication</h1>
+</div>
+<img src="image/Studio8 Img/circle.png" class="small-icon1">
+<img src="image/Studio8 Img/circle.png" class="small-icon2">
+<img src="image/Studio8 Img/square.png" class="small-icon3">
+
+</div>
+<div class="col">
+<div class="galery-box">
+<img src="image/Studio8 Img/pic1.jpg" id="galery">
+<ul>
+    
+<li class="btn">01</li>
+<li class="btn active">02</li>
+<li class="btn">03</li>
+<li class="btn">04</li>
+</ul>
+
+
+</div>
+</div>
+
+</div>
+<img src="image/Studio8 Img/circle.png" class="small-icon4">
+<img src="image/Studio8 Img/square.png" class="small-icon5">
+
+</div>
+<script>
+    var btn = document.getElementsByClassName("btn");
+    var galery = document.getElementById("galery");
+    
+    var images = new Array(
+    "image/studio8 Img/pic1.jpg",
+    "image/Studio8 Img/pic2.jpg",
+    "image/studio8 img/pic3.jpg",
+    "image/studio8 img/pic4.jpg",
+    )
+    for(let i=0; i<btn.length; i++){
+    btn[i].onclick = function()
+    {
+        galery.src = images[i];
+    let current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active","");
+    this.className += " active"
+    };
+    }
+    </script>
+   <!-- featured  Product  -->
+   <div class="small-container">
+<h2 class="title">FEATURED  PRODUCT</h2>
+<div class="row">
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+<div class="col-4">
+<img src="image/Studio8 Img/furniture-1840463__340.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+   <!-- lateast products -->
+</div>
+<h2 class="title">LATEST  PRODUCT</h2>
+<div class="row">
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+                        
+<div class="col-4">
+<img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+<h4>new style sofa</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+</div>
+<p>50.00$</p>
+</div>
+<div class="col-4">
+    <img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+    <h4>new style sofa</h4>
+    <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o" ></i>
+    </div>
+    <p>50.00$</p>                    
+                                
+</div>
+<div class="col-4">
+    <img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+    <h4>new style sofa</h4>
+    <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o" ></i>
+    </div>
+    <p>50.00$</p>                    
+                                
+</div>
+<div class="col-4">
+    <img src="image/Studio8 Img/toy-1802372__480 - Copy.webp">
+    <h4>new style sofa</h4>
+    <div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-o" ></i>
+    </div>
+    <p>50.00$</p>                    
+                                
+</div>
+<!-- ''''''''''testimonial''''''''''' -->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                     Eaque, totam corrupti ullam minima, repellat sit .</p>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    </div> 
+                    <img src="image/Studio8 Img/images (1).jpg" alt="">
+                    <h3>sean parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" ></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                         Eaque, totam corrupti ullam minima, repellat sit .</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                        </div> 
+                        <img src="image/Studio8 Img/images (1).jpg" alt="">
+                        <h3>sean parker</h3>
+                </div>      
+            </div>
+        </div>
+    </div>
+              
+
+        
+    
+
+</div>
+   
+   
+</body>
+</html>
